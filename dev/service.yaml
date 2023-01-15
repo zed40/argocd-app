@@ -2,8 +2,7 @@ iapiVersion: v1
 kind: Service
 metadata:
   name: myapp-service
-spec:
-  type: LoadBalancer
+spec:i
   selector:
     app: myapp
   ports:
